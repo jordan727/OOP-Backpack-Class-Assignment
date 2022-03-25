@@ -29,6 +29,7 @@ class backpack {
                 if (this.items[i] == item) {
                     this.items.splice(i, 1);
                 }
+                //use indexOf
             }
         }
         console.log("You took out " + item + " from your bag")
